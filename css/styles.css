@@ -48,6 +48,9 @@ p {
 .navbar {
     background-color: #343a40;
     padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other content */
 }
 
 .navbar a {
@@ -59,6 +62,7 @@ p {
 
 .navbar a:hover {
     background-color: #495057;
+    text-decoration: underline;
 }
 
 footer {
