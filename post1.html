@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Blog Post</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="include.js"></script> <!-- JavaScript for includes -->
 </head>
 <body>
 
-    <!-- Navbar -->
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="post1.html">Blog Post</a>
-    </div>
+    <!-- Include Navbar -->
+    <div data-include="navbar.html"></div>
 
     <!-- Blog Content -->
     <div class="container">
@@ -33,10 +31,8 @@
         <a href="index.html" class="btn">Back to Home</a>
     </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 My Blog. All Rights Reserved.</p>
-    </footer>
+    <!-- Include Footer -->
+    <div data-include="footer.html"></div>
 
 </body>
 </html>
