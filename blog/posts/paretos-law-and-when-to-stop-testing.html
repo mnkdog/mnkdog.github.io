@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MnkDog Blog - Pareto's law and when to stop testing</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/include.js"></script> <!-- JavaScript for includes -->
+</head>
+<body>
+
+    <!-- Include Navbar -->
+    <div data-include="/statics/navbar.html"></div>
+
+    <!-- Blog Content -->
+    <div class="container">
+<main>
+        <h1>Pareto's law and when to stop testing</h1>
+        
+<blockquote>
+  <p>Don't stop 'til you get enough
+- <em>Michael Jackson</em></p>
+</blockquote>
+
+<p>When is enough testing enough?</p>
+
+<p>Can we stop now?</p>
+
+<p>What reasons could there be for us to continue ... oh, go on, just another hour or so ... please!</p>
+
+<p>Some reasons for stopping testing, from my experience:</p>
+
+<ol>
+<li>run out of time</li>
+<li>executed all the planned tests</li>
+<li>awaiting a new release</li>
+<li>stakeholders have agreed to stop based on prevailing risk situation</li>
+</ol>
+
+<p>The reason I've been thinking about this is that people have different views of how the Pareto principle applies to testing.</p>
+
+<p>First, we should know what the principle is if we want to analyse how it applies to testing. </p>
+
+<p>The Pareto Principle is otherwise known as the '80/20 rule'.
+At its core is a disproportionate relationship between two factors.
+It states that 80% of the outcomes come from 20% of the causes.</p>
+
+<p>For example, 80% of the income tax revenue comes from just 20% of the income tax payers.
+I make no claim that this is true, by the way, but merely my example.</p>
+
+<p>The underlying message is that things in life are not linear:- 
+if you add one more contributor (a cause) you will not reap one more unit of output (the outcome).</p>
+
+<p>Of course, that last statement <em>will</em> actually hold true at some point in a sample.  It could be that the 33rd contributor added will add one more unit, or it could be the 67th.  </p>
+
+<p>Using averages, as we tend to, leads us to think that adding one extra contributor each time will add the same <em>n</em> output each time.  That's how we simplify things in our minds, by working with averages.</p>
+
+<p>The Pareto Principle simply highlights that there are <em>real</em> numbers behind these scenarios (not <em>what</em> those numbers are) rather than the same average being applied to each one.</p>
+
+<p>So, 100 people's salaries may total to £1m.  The average would then be £10,000 (<code>1,000,000 / 100 = 10,000</code>).  Meaning the average salary is £10,000.</p>
+
+<p>The reality will be quite different to this, depending on where you are.  Surveying 100 people's salaries is likely to lead to an 80/20 split.  Meaning that 80% of the total of all the salaries is earned by just 20 people.  Put another way, the 20 highest earning people of the 100 earn 80% of the total salaries.  In some situations we may witness a 90/10 split or a 70/30 split, but the indicative imbalance invites us to look at and think about situations and relationships differently.</p>
+
+<p>The upshot of the Pareto Principle is that, knowing this lopsided arrangement, we could look to optimise for those 20% super-yielding contributors.</p>
+
+<p>For a simple example, if a business sees that 80% of its profits come from just 20% of its products (and not its services), it could seek to put more resources into selling more units of the product, diverting resources from selling its services.  The leverage gained would lead us to believe the company would increase its profit with little or no extra cost of doing so.</p>
+
+<p>Back to <strong>Software Testing</strong> then!  How is the 80/20 rule relevant?</p>
+
+<p>These lopsided relationships are often seen in things like:</p>
+
+<ul>
+<li>80% of the bugs found reside in 20% of the software</li>
+<li>80% of the bugs are found in 20% of the time spent testing</li>
+<li>80% of bugs are found while executing only 20% of the tests</li>
+</ul>
+
+<p>If we then assume that these examples are broadly true, how would or should we respond?
+What would we do differently now we know that 80% of the time we spend testing we're only going to find a few bugs compared to the first 20%?
+Does it even mean this?  Is the Pareto Principle saying this is a chronological relationship?  Or could those super-yielding 20 minutes of testing (out of a total 100 minutes) be dispersed throughout the 100 minutes?   Surely they must be dispersed.  We cannot magically happen upon the most fruitful tests right from the start.  But perhaps we do, when we use risk based testing to inform our priorities.</p>
+
+<p>I will give this deeper thought and write more on it another time.</p>
+
+<p>Over and Out!</p>
+</main>
+        <!-- Include Nav Buttons -->
+        <!-- <div data-include="/statics/navbuttons.html"></div> -->
+        <hr>
+        <h2>You may also like these ...</h2>
+        
+        <!-- Include Recent Blogs -->
+        <div data-include="/statics/recentblogs.html"></div>
+    </div>
+
+    <!-- Include Footer -->
+    <div data-include="/statics/footer.html"></div>
+
+</body>
+</html>
